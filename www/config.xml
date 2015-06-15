@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ztvApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Zalando Fashion TV Demo</name>
+  <description>
+        Zalando Fashion TV: utilising ViDIRO analytics
+    </description>
+  <author email="killian@vidiro.com" href="www.vidiro.com">
+      Killian Merrins
+    </author>
+  <content src="index.html"/>
+    <access origin="*" launch-external="yes" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <!-- Allow all unrecognized URLs to open installed apps
+         *NOT RECOMMENDED* -->
+    <allow-intent href="*" />
+    <!-- Don't block any requests -->
+
+
+  <preference name="fullscreen" value="true" /><!--global-->
+
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/><!--global-->
+
+  <preference name="BackupWebStorage" value="none" /> <!--app store requirement-->
+
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="3000" />
+
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+
+    </feature>
+</widget>

@@ -1,0 +1,17 @@
+<ion-view title="main"> <!--ng-controller="ListCtrl" ng-cloak--> <!---->
+    <ion-header-bar align-title="center" class="bar-custom">
+        <h1 class="headerTitle title">ZALANDO PLAYER</h1>
+    </ion-header-bar>
+    <ion-content>
+        <ion-list class="homeFeedList">
+            <ion-item ng-repeat="item in vids"> <!--href="#/tab/home/video/{{item.vVideo}}-->
+                <a ng-href="https://www.youtube.com/watch?v={{item.vVideo}}">
+                    <img class="videoStillImg" ng-src="https://i1.ytimg.com/vi/{{item.vVideo}}/mqdefault.jpg" alt="Still of {{item.vTitle}}"/>
+                    <div>
+                        <p class="vidTitle">{{item.vTitle}}</p>
+                    </div>
+                </a>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

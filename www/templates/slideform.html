@@ -1,0 +1,100 @@
+<ion-view>
+    <ion-slide-box show-pager="true" auto-play="false" does-continue="false">
+        <ion-slide>
+            <ion-header-bar align-title="center" class="bar-custom">
+                <div class="buttons">
+                   <button ui-sref="welcome" style="color: #ffffff" class="button button-icon icon ion-arrow-left-c"></button>
+                </div>
+                <h1 class="headerTitle title"></h1>
+                <div class="buttons">
+                   <button style="color: #ffffff" class="button button-icon icon ion-arrow-right-c" ng-click="nextSlide()"></button>
+                </div>
+            </ion-header-bar>
+
+            <ion-content class="pane2">
+                <div class="slideBody">
+                <img class="imgHiUser" src="img/zfashiontypography.png" style="width:40%; margin-left: auto; margin-right: auto;"/>
+                </div>
+                <div class="future-text top-text white-text">You are seeing the future</div>
+                    <div class="future-text of-text white-text">- of -</div>
+                <div class="future-text bottom-text white-text">
+                    <strong>Zalando Fashion Player</strong>
+                </div>
+
+                </ion-list>
+            </ion-content>
+        </ion-slide>
+
+<!--Second Slide-->
+
+        <ion-slide>
+            <ion-header-bar align-title="center" class="bar-custom">
+                <div class="buttons">
+                   <button ng-click="slideBack()" style="color: #ffffff" class="button button-icon icon ion-arrow-left-c"></button>
+                </div>
+                <h1 class="title"></h1>
+                <button style="color: #ffffff" class="button button-icon icon ion-arrow-right-c" ng-click="nextSlide()"></button>
+                </div>
+            </ion-header-bar>
+
+
+
+            <ion-content class="pane3">
+
+                <div class="slideBody">
+                    <img class="imgHiUser" src="img/zladystrap.png" style="width:100%; margin-left: 0"/>
+                    <div class="future-text dark-text">
+                        A
+                        <strong>curated</strong>
+                        fashion
+                    </div>
+                    <div class="future-text of-text dark-text">video
+                        <strong> experience</strong>
+                    </div>
+                    <div class="future-text of-text dark-text">- for -</div>
+                    <div class="future-text bottom-text dark-text">
+                        <strong>Zalando fans</strong>
+                    </div>
+                </div>
+            </ion-content>
+        </ion-slide>
+
+
+<!--Third Slide-->
+
+        <ion-slide>
+            <ion-header-bar align-title="center" class="bar-custom">
+                <div class="buttons">
+                    <button ng-click="slideBack()" style="color: #ffffff" class="button button-icon icon ion-arrow-left-c"></button>
+                </div>
+                <h1 class="title"></h1>
+                <div class="buttons">
+                    <button ui-sref="main" style="color: #ffffff" class="button button-icon icon ion-arrow-right-c"></button>
+                </div>
+            </ion-header-bar>
+
+
+            <ion-content class="pane4">
+            <div class="slideBody2">
+                <img class="imgHiUser" src="img/zpattern-top.png" style="width:100%; margin-left: 0"/>
+
+                <div class="future-text dark-text">
+                    Providing
+                    <strong>Zalando</strong>
+                    & Partners
+                </div>
+                <div class="future-text of-text dark-text">
+                    with
+                    <strong>native video</strong>
+                </div>
+                <div class="future-text of-text dark-text"></div>
+                <div class="future-text bottom-text dark-text padded-text">
+                    <strong>distribution opportunities </strong>
+                </div>
+
+                <img class="imgHiUser" src="img/zpattern-bottom.png" style="width:100%; margin-left: 0;"/>
+            </div>
+        </ion-content>
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>

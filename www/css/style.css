@@ -1,0 +1,304 @@
+
+.testCol {
+    background-color: #f74f0e;
+}
+
+
+
+@font-face {
+    font-family: 'Helvetica Neue-Light';
+    src: url('../lib/ionic/fonts/HelveticaNeueLight.ttf');
+}
+
+
+body, .ionic-body {
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.tab-item {
+    font-family: "Helvetica Neue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+input, button, select, textarea {
+    font-family: "Helvetica Neue Light", "Helvetica Neue-Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* Video Overlay Stuff */
+
+.item{
+
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+
+}
+
+
+
+.vidTitle {
+    font-size: 11px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    /*padding-left: 10px;*/
+    /*text-underline: none;*/
+    /*padding-top: 0;*/
+    /*padding-bottom: 0;*/
+    /*position: relative;*/
+
+
+}
+
+a {
+
+    /*background-color: orangered;*/
+    text-decoration: none;
+    color: white;
+    /*z-index: 999;*/
+    text-underline: none;
+    /*overflow: visible;*/
+    text-align: center;
+    /*heigh: 15px;*/
+
+
+}
+
+.logo {
+    /*-webkit-animation:wobble 1.8s ease-in-out infinite;*/
+    width: 100%;
+    display: block;
+    margin-left: -5%;
+    /*margin-left: auto;*/
+    /*margin-right:auto;*/
+
+}
+
+.player-logo {
+    width: 70%;
+    /*margin-left:5%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+
+}
+
+#strap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logoContainer {
+    width:80%;
+    margin-left: 10%;
+    margin-top: 30px;
+
+}
+
+.buttonBox {
+    width:100%;
+
+
+}
+
+/*panes 'must be used for full-screen images', so says StackOverflow*/
+
+/*--landing page--*/
+
+.pane1 {
+
+    background-image: url('../img/zbox-bg.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/*--slide 1--*/
+
+.pane2 {
+
+    /*background-image: url('../img/zfashion-typography-dark.png');*/
+    background-color: #383838;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
+/*--slide 2--*/
+
+.pane3 {
+
+    /*background-image: url('../img/zladyphone2.png');*/
+    /*background-image: url('../img/zconcretebg.png');*/
+    /*background-color: #383838;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
+/*--slide 3--*/
+
+.pane4 {
+
+    /*background-image: url('../img/zfashion-typography-dark.png');*/
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+}
+
+.white-text {
+    color: white;
+}
+
+.dark-text {
+    color: #383838;
+}
+
+.future-text {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /*text-align: justify;*/
+    text-justify: inter-word;
+    text-align: center;
+
+}
+
+.top-text {
+    padding-top: 10px;
+
+}
+
+.of-text {
+    padding: -5px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.btn {
+
+    width: 60%; /*was 80*/
+    text-align: center;
+    padding: 5px 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    color: #f9fafb;
+    position: relative;
+    display: inline-block;
+    border: #e8e5de;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #f15b4e);
+
+}
+
+.btnimg {
+    width: 90%;
+    margin-left:5%;
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:active {
+
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+.videoStillImg {
+    width: 100%;
+}
+
+#ytplayer {
+    margin-top: auto;
+    margin-bottom: auto;
+    align-self: center;
+}
+/*================== Custom Header Gradient Nav Bar ================*/
+.bar-custom{
+    background: #ff6900; /* Old browsers */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff6900), color-stop(50%,#ff781a)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff6900 0%, #ff781a 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to right,  #ff6900 0%, #ff781a 100%) !important; /* W3C */
+    padding: 0 !important;
+}
+
+.bar-custom2{
+    background: #ff6900; /* Old browsers */
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff6900), color-stop(50%,#ff781a)) !important; /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff6900 0%, #ff781a 100%) !important; /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to right,  #ff6900 0%,#ff781a 100%) !important; /* W3C */
+    padding: 0 !important;
+}
+
+.bar-custom h1.title{
+    color:#fff !important;
+}
+
+.bar-custom2 h1.title{
+    color:#fff !important;
+}
+
+.slider{
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    height: 100%;
+
+}
+.sliderButtons{
+    color: #ffffff
+}
+.leftHeaderBar {
+    width: 25%;
+    float: left;
+}
+.middleHeaderBar {
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+}
+.rightHeaderBar {
+    width: 25%;
+    float: left;
+}
+
+.slideBody {
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 50px
+}
+
+.slideBody2 {
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.padded-text {
+    margin-bottom: 10px;
+}
+
+
+
